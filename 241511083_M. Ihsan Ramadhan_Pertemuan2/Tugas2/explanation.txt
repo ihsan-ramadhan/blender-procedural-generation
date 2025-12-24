@@ -1,0 +1,44 @@
+TUGAS 2: PROCEDURAL TEXTURE SCENE
+Nama: Muhammad Ihsan Ramadhan
+NIM: 241511083
+
+TEMA: Natural - Forest Floor (Lantai Hutan)
+
+KONSEP SCENE:
+Scene ini merepresentasikan lantai hutan yang natural dengan berbagai 
+elemen organik. Menggunakan procedural textures untuk menciptakan 
+material tanah berlumut, batu-batu dengan tekstur alami, kayu lapuk, 
+dan vegetasi sederhana.
+
+8 MATERIAL PROCEDURAL:
+1. Forest_Ground - Noise + Voronoi + Displacement
+2. Mossy_Rock - Voronoi + Noise + Magic
+3. Old_Wood_Log - Wave + Noise
+4. Moss_Carpet - Noise + Voronoi
+5. Small_Pebbles - Voronoi + Noise
+6. Rough_Bark - Wave + Voronoi + Noise
+7. Wet_Leaves - Magic + Noise
+8. Forest_Mushroom - Checker + Noise
+
+TEKNIK KHUSUS:
+- Displacement Mapping pada ground untuk detail geometri terrain
+- Bump Mapping untuk surface detail
+- Procedural Mixing untuk realism
+- Subdivision Surface untuk smooth displacement
+
+TEXTURE NODES DIGUNAKAN:
+- Noise Texture: Variasi organik
+- Voronoi Texture: Cellular patterns
+- Wave Texture: Wood grain dan grooves
+- Magic Texture: Moss patterns
+- Checker Texture: Mushroom spots
+
+12+ OBJEK DALAM SCENE:
+- Ground plane (dengan displacement)
+- 3x Mossy rocks
+- 2x Wood logs
+- 3x Moss carpet patches
+- 1x Pebbles area
+- 1x Tree stump
+- 1x Wet leaves pile
+- 2x Mushrooms (cap + stem)
